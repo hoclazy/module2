@@ -7,7 +7,7 @@ public class hienThi20SoNguyenToDauTien {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("nhap so nguyen to dau tien can tim: ");
+        System.out.println("nhap so nguyen to can tim: ");
         int n = sc.nextInt();
 
 
