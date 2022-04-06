@@ -28,17 +28,21 @@ public class xoaPhanTuKhoiMang {
         for (int i =0; i<viTriXoa;i++) {
             newArr[i] = arr[i];
         }
-        for (int i = viTriXoa; i< arr.length;i++) {
+        for (int i = viTriXoa; i< arr.length-1;i++) {
             newArr[i] = arr[i+1];
         }
         arr = newArr;
         inMang(arr);
     }
 
-    static int timViTriPhanTu(int[] arr, int soCanXoa) {
-
-        int viTriXoa = -1;
-        return viTriXoa;
+    static int timViTriPhanTu(int[] ar, int a) {
+        int viTri= -1;
+        for (int i = 0; i < ar.length; i++) {
+            if(ar[i] ==a ){
+                viTri=i;
+            }
+        }
+        return viTri;
     }
 
     private static void inMang(int[] mang) {
