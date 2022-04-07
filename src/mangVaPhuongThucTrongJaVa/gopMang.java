@@ -12,9 +12,12 @@ public class gopMang {
         int [] arr2 = {4,5,6,7};
         int [] arr = new int[arr1.length+ arr2.length];
 
+        // gán mảng arr1 vào mảng mới
         for(int i = 0; i< arr1.length; i++) {
             arr[i] = arr1[i];
         }
+
+        // gán mảng arr2 vào mảng mới sau khi mảng mới đã gán arr1
         for(int i = 0; i< arr2.length; i++) {
             arr[arr1.length+i] = arr2[i];
         }
