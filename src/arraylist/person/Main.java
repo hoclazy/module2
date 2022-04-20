@@ -40,5 +40,9 @@ public class Main {
 
         System.out.println(".........max number..........");
         town.maxNumberOfMember();
+
+        System.out.println(".........xoa ho gia dinh theo dia chi..........");
+        town.remove("23 nguyen cong chu");
+        town.display();
     }
 }

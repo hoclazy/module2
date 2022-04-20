@@ -61,7 +61,7 @@ public class Family {
         int max = personArrayList.get(0).getAge();
         for (int i = 0; i < personArrayList.size(); i++) {
             if (personArrayList.get(i).getAge() > max) {
-                max=personArrayList.get(i).getAge();
+                max = personArrayList.get(i).getAge();
             }
         }
         return personArrayList.get(search(max));
@@ -75,10 +75,15 @@ public class Family {
 
     public void display() {
 
-        for(Person person :personArrayList){
-            System.out.println(person.toString());
+//        for(Person person :personArrayList){
+//            System.out.println(person.toString());
+//        }
+        for (int i = 0; i < personArrayList.size(); i++) {
+            System.out.println(personArrayList.get(i).toString());
         }
-        System.out.println("address: " + address + ", numberofmember: " + numberOfMember + "\n");
+
+
+        System.out.println("Address: " + address + ", Number of member: " + numberOfMember + "\n");
     }
 
 

@@ -44,7 +44,7 @@ public class Town {
                 max = familyArrayList.get(i).getNumberOfMember();
             }
         }
-        System.out.println("ho gia dinh co nhieu nguoi nhat la: " + max);
+        System.out.println("Ho gia dinh co nhieu nguoi nhat la: " + max);
     }
     public void display(){
         for(int i = 0; i < familyArrayList.size(); i++){
