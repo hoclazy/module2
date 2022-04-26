@@ -1,0 +1,4 @@
+tong la: 7.0
+tich la: 10.0
+max la: 5.0
+min la: 2.0
